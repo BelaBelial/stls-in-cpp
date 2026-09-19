@@ -47,6 +47,11 @@ int main(){
     if(pessoa.count("isabela")) cout << "o count identificou que existe" << endl;
     else cout << "o count identificou que nao existe" << endl;
 
+    //iterando por um map:
+    for(auto par : pessoa){
+        cout << "chave = " << par.first << " " << "valor = " << par.second << endl;
+    }
+
     //outras funcoes:
     pessoa.size();
     pessoa.clear();
