@@ -52,6 +52,9 @@ int main(){
         cout << "chave = " << par.first << " " << "valor = " << par.second << endl;
     }
 
+    //apagando um elemento da estrutura (nao vai mais existir no map)
+    pessoa.erase("isabela");
+
     //outras funcoes:
     pessoa.size();
     pessoa.clear();
